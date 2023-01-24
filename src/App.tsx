@@ -1,10 +1,10 @@
 import "./App.css";
-import Map from "./components/Map";
+import GoogleMapWrapper from "./components/GoogleMapWrapper";
 
 function App() {
   return (
     <div className="w-full">
-      <Map></Map>
+      <GoogleMapWrapper></GoogleMapWrapper>
     </div>
   );
 }
